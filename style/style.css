@@ -116,13 +116,13 @@ body {
 }
 
 .search-wrap {
-  width: 500px;
+  width: 100%;
   margin: 30px auto;
 }
 
 .search-wrap .search-box {
   position: relative;
-  width: 500px;
+  width: 100%px;
   height: 60px;
 }
 
@@ -169,7 +169,8 @@ body {
 
 .popular-title {
   font-weight: bold;
-  padding: 5px;
+  padding-top: 10px;
+  text-align: center;
   flex: 1;
   font-size: 14px;
 }
@@ -177,13 +178,13 @@ body {
 .popular-content {
   display: flex;
   flex-wrap: wrap;
-  flex: 6;
+  flex: 5;
   font-size: 12px;
 }
 
 .popular {
   padding: 10px;
-  margin: 0 0 10px 6px;
+  margin: 0 6px 10px 0;
   border-radius: 50px;
   border: 1px solid #fff;
   cursor: pointer;
@@ -461,6 +462,9 @@ body {
   .about .container::after {
     left: -16px;
     background-color: #EE0000;
+  }
+  .top-side{
+    width: 100%;
   }
 }
 
