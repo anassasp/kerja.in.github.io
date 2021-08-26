@@ -294,11 +294,12 @@ body {
   height: 835px;
   background-image: url(../asset/wavy-bg-down.png);
   background-repeat: no-repeat;
-  background-size: 100% 70%;
-  background-position: center top;
+  background-size: cover;
+  
 }
 
 .explore h1 {
+  margin-left: 30px;
   font-size: 48px;
   letter-spacing: 2px;
 }
