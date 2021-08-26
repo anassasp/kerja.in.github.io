@@ -45,7 +45,7 @@ body {
   text-decoration: none;
 }
 
-.header .logo-span {
+.logo-span {
   color: #EE0000;
 }
 
@@ -412,6 +412,30 @@ body {
   margin: 5px 0 20px 0;
 }
 
+/*footer*/
+.footer {
+  background-color: #363636;
+}
+
+.footer .max-width {
+  /*height: 150px;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.footer .footer-left p {
+  font-size: 2em;
+  padding: 20px 0;
+}
+
+.footer .footer-right .fab {
+  color: #fff;
+  font-size: 2em;
+  margin-left: 10px;
+}
 
 /*Login Form*/
 .modal {
@@ -711,5 +735,12 @@ body {
 
   .review .content .card {
     width: 90%;
+  }
+
+  .footer .max-width {
+    flex-direction: column;
+  }
+  .footer .footer-right {
+    padding: 20px 0;
   }
 }
