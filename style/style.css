@@ -295,16 +295,59 @@ body {
 
 /* Explore */
 .explore {
-  padding: 100px 0;
+  padding-bottom: 100px;
 }
 
-/*.explore .choose {
+.explore .choose {
   height: 100vh;
   background-image: url("../asset/wavy-bg-down.png");
   background-repeat: no-repeat;
   background-size: 100% 70%;
   background-position: center top;
-}*/
+  padding: 80px 0;
+}
+
+.explore .choose h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.explore .content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.explore .choose-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  border: 1px solid #000;
+  text-align: center;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.explore .choose-card img {
+  width: 100%;
+  padding: 20px;
+}
+
+.explore .choose-card p {
+  text-decoration: none;
+  color: #000;
+  background-color: #FFCACA;
+  padding: 10px 0;
+  width: 40%;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.explore .categories {
+  margin-top: 80px;
+}
 
 .explore .categories h2 {
   font-size: 2em;
@@ -384,10 +427,6 @@ body {
 
 .review .card .top-card {
   width: 100%;
-  /*background-color: red;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  flex-basis: 40%;*/
 }
 
 .review .profile-image {
@@ -712,6 +751,17 @@ body {
   .modal .modal-link .link-text {
     font-size: 0.5em;
   }
+  .explore .content {
+    flex-direction: column;
+  }
+  .explore .content .choose-card{
+    width: 90%;
+    margin: 10px auto;
+  }
+  .explore .categories {
+    margin-top: 200px;
+  }
+
   .review .content {
     flex-direction: column;
   }
@@ -731,6 +781,9 @@ body {
   .home p {
     font-size: 0.85em;
     margin-bottom: 20px;
+  }
+  .explore .categories {
+    margin-top: 20px;
   }
 
   .review .content .card {
